@@ -1,6 +1,6 @@
 {
-    "Version": "1.4.00",
-    "ReleaseNotes": "Adicionado payloads de testes para todas as operadoras.\nPor favor, testem e relatem.",
+    "Version": "1.4.01",
+    "ReleaseNotes": "Adicionado payloads de testes para TIM.\nPor favor, testem e relatem.",
     "UrlUpdate": "https://raw.githubusercontent.com/TheMatheusDev/payloads/main/config.json",
     "Sms": "BOTAR LINK DO SMS AQUI",
     "EmailFeedback": "apenasmatheus1@gmail.com",
@@ -327,7 +327,7 @@
             "Info": "proxy"
         },
         {
-            "Name": "🟣❓ VIVO [TESTE 1]",
+            "Name": "🟣❓ VIVO [TESTE 01]",
             "FLAG": "vivo",
             "Payload": "GET wss://104.18.7.80/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "",
