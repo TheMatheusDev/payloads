@@ -1,7 +1,7 @@
 {
-    "Version": "1.3.22",
+    "Version": "1.4.00",
     "ReleaseNotes": "Adicionado payloads de testes para todas as operadoras.\nPor favor, testem e relatem.",
-    "UrlUpdate": "https://bitbin.it/gbtKSiGs/raw/",
+    "UrlUpdate": "https://raw.githubusercontent.com/TheMatheusDev/payloads/main/config.json",
     "Sms": "BOTAR LINK DO SMS AQUI",
     "EmailFeedback": "apenasmatheus1@gmail.com",
     "UrlContato": "t.me/theuskhan",
@@ -97,14 +97,64 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "🔵❓ TIM [TESTE]",
+            "Name": "🔵❓ TIM [TESTE 01]",
             "FLAG": "tim",
-            "Payload": "HTTP/ [crlf][crlf]|[crlf]",
+            "Payload": "GET wss://auth-uat-us.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+            "SNI": "auth-uat-us.surveymonkey.com",
+            "TlsIP": "104.18.7.22",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "🔵❓ TIM [TESTE 02]",
+            "FLAG": "vivo",
+            "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "93.188.165.163",
+            "ProxyIP": "[app_host]",
             "ProxyPort": "80",
             "Info": "Proxy"
+        },
+        {
+            "Name": "🔵❓ TIM [TESTE 03]",
+            "FLAG": "tim.png",
+            "Payload": "SUBSCRIBE HTTP/1.1[lf]Host:www.artists.youtube.com[lf]By:~>@mateuscmf[lf][lf][lf]Host:www.office.com;www.larebajavirtual.com[lf]By:~>@mateuscmf[lf][lf]",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🔵❓ TIM [TESTE 04]",
+            "FLAG": "tim",
+            "Payload": "PROPFIND http://www.microsoft.com HTTP/1.0 Host: www.microsoft.com HTTP/1.0\n \n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Direct"
+        },
+        {
+            "Name": "🔵❓ TIM [TESTE 05]",
+            "FLAG": "tim",
+            "Payload": "UNLOCK www.whatsapp.net;m.facebook.com;www.instagram.com;www.twitter.com;c.whatsapp.net HTTP/1.0 Host: www.whatsapp.net;m.facebook.com;www.instagram.com;www.twitter.com;c.whatsapp.net HTTP/1.0\n \n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Direct"
+        },
+        {
+            "Name": "🔵❓ TIM [TESTE 06]",
+            "FLAG": "tim",
+            "Payload": "MKCOL http://www.artists.youtube.com HTTP/1.0 Host: www.artists.youtube.com HTTP/1.0\n \n",
+            "SNI": "",
+            "TlsIP": "",
+            "ProxyIP": "[app_host]",
+            "ProxyPort": "80",
+            "Info": "Direct"
         },
         {
             "Name": "🔴❓ Claro [TESTE]",
@@ -167,7 +217,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "🟣❓ VIVO [TESTE 01]",
+            "Name": "🟣 VIVO 02",
             "FLAG": "vivo",
             "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "",
@@ -177,7 +227,7 @@
             "Info": "Proxy"
         },
         {
-            "Name": "🟣 VIVO 02",
+            "Name": "🟣 VIVO 03",
             "FLAG": "vivo",
             "Payload": "GET wss://duvidas.ampli.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "duvidas.ampli.com.br",
@@ -187,7 +237,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "🟣 VIVO 03",
+            "Name": "🟣 VIVO 04",
             "FLAG": "vivo",
             "Payload": "GET wss://atendimento.alliedbrasil.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "atendimento.alliedbrasil.com.br",
@@ -197,7 +247,7 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "🟣 VIVO 04",
+            "Name": "🟣 VIVO 05",
             "FLAG": "vivo",
             "Payload": "GET wss://uploads.api.new.livestream.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "uploads.api.new.livestream.com",
@@ -290,7 +340,7 @@
             "Name": "🟣❓ VIVO [TESTE 02]",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-            "SNI": "104.18.7.80",
+            "SNI": "",
             "TlsIP": "",
             "ProxyIP": "104.18.7.80",
             "ProxyPort": "80",
