@@ -1,5 +1,5 @@
 {
-    "Version": "1.4.02",
+    "Version": "1.4.03",
     "ReleaseNotes": "Adicionado mais payloads de testes TIM, Claro e Vivo.\nPor favor, testem e relatem.",
     "UrlUpdate": "https://raw.githubusercontent.com/TheMatheusDev/payloads/main/config.json",
     "Sms": "BOTAR LINK DO SMS AQUI",
@@ -199,7 +199,7 @@
         {
             "Name": "🔵❓ TIM [TESTE 11]",
             "FLAG": "tim.png",
-            "Payload": "Lock sunnywinechina.com HTTP HTTP/2.0[crlf]Host: 146.75.34.97.img.redbull.com [crlf]Connection: upgrade, Keep-Alive-Status 101[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.2 (+http://www.google.com/bot.html)[crlf]Referer: //*.yahoo.com[crlf]",
+            "Payload": "LOCK sunnywinechina.com HTTP HTTP/2.0[crlf]Host: 146.75.34.97.img.redbull.com [crlf]Connection: upgrade, Keep-Alive-Status 101[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.2 (+http://www.google.com/bot.html)[crlf]Referer: //*.yahoo.com[crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "[app_host]",
