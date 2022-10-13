@@ -109,7 +109,7 @@
         {
             "Name": "🔵❓ TIM [TESTE 03]",
             "FLAG": "tim",
-            "Payload": "GET wss://support.deezer.com/ HTTP/1.1[crlf]Host: br1.jrtnetvpn.ga[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET wss://support.deezer.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
             "SNI": "support.deezer.com",
             "TlsIP": "support.deezer.com",
             "ProxyIP": "",
@@ -118,7 +118,7 @@
         },
         {
             "Name": "🔵❓ TIM [TESTE 04]",
-            "FLAG": "vivo",
+            "FLAG": "tim",
             "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
@@ -172,7 +172,7 @@
             "Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]",
             "SNI": "",
             "TlsIP": "",
-            "ProxyIP": "",
+            "ProxyIP": "[app_host]",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
