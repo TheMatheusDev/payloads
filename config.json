@@ -1,5 +1,5 @@
 {
-    "Version": "1.4.05",
+    "Version": "1.4.06",
     "ReleaseNotes": "Adicionado mais payloads de testes TIM, Claro e Vivo.\nPor favor, testem e relatem.",
     "UrlUpdate": "https://raw.githubusercontent.com/TheMatheusDev/payloads/main/config.json",
     "Sms": "BOTAR LINK DO SMS AQUI",
@@ -404,6 +404,16 @@
             "SNI": "104.16.56.61",
             "TlsIP": "",
             "ProxyIP": "185.88.181.9",
+            "ProxyPort": "80",
+            "Info": "proxy"
+        },
+        {
+            "Name": "🟣❓ VIVO [TESTE 04]",
+            "FLAG": "ic_vivo",
+            "Payload": "GET / HTTP/1.3[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+            "SNI": "104.16.56.61",
+            "TlsIP": "",
+            "ProxyIP": "",
             "ProxyPort": "80",
             "Info": "proxy"
         }
