@@ -1,5 +1,5 @@
 {
-    "Version": "1.4.01",
+    "Version": "1.4.02",
     "ReleaseNotes": "Adicionado mais payloads de testes TIM, Claro e Vivo.\nPor favor, testem e relatem.",
     "UrlUpdate": "https://raw.githubusercontent.com/TheMatheusDev/payloads/main/config.json",
     "Sms": "BOTAR LINK DO SMS AQUI",
