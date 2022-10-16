@@ -140,8 +140,8 @@
             "Name": "🔵❓ TIM [TESTE 06]",
             "FLAG": "tim",
             "Payload": "GET wss://careers.calendly.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
-            "SNI": "smainfo.surveymonkey.com",
-            "TlsIP": "smainfo.surveymonkey.com",
+            "SNI": "careers.calendly.com",
+            "TlsIP": "104.16.51.111",
             "ProxyIP": "",
             "ProxyPort": "443",
             "Info": "Tlsws"
