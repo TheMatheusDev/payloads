@@ -1,5 +1,5 @@
 {
-    "Version": "1.4.09",
+    "Version": "1.4.10",
     "ReleaseNotes": "Adicionado mais payloads de testes TIM, Claro e Vivo.\nPor favor, testem e relatem.",
     "UrlUpdate": "https://raw.githubusercontent.com/TheMatheusDev/payloads/main/config.json",
     "Sms": "BOTAR LINK DO SMS AQUI",
@@ -195,6 +195,26 @@
             "ProxyIP": "[app_host]",
             "ProxyPort": "80",
             "Info": "Proxy"
+        },
+        {
+            "Name": "🔵❓ TIM [TESTE 12]",
+            "FLAG": "tim",
+            "Payload": "GET wss://smainfo.surveymonkey.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "smainfo.surveymonkey.com",
+            "TlsIP": "smainfo.surveymonkey.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "🔵❓ TIM [TESTE 13]",
+            "FLAG": "tim",
+            "Payload": "GET wss://careers.calendly.com HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: WebSocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+            "SNI": "smainfo.surveymonkey.com",
+            "TlsIP": "smainfo.surveymonkey.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
         },
         {
             "Name": "🔴❓ Claro [TESTE 01]",
