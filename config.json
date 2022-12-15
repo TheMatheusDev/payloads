@@ -1,6 +1,6 @@
 {
-    "Version": "1.5.1",
-    "ReleaseNotes": "Aualização de manutenção.",
+    "Version": "1.5.2",
+    "ReleaseNotes": "Atualizado payloads Vivo.",
     "UrlUpdate": "https://raw.githubusercontent.com/TheMatheusDev/payloads/main/config.json",
     "Sms": "BOTAR LINK DO SMS AQUI",
     "EmailFeedback": "apenasmatheus1@gmail.com",
@@ -67,12 +67,32 @@
             "Info": "Tlsws"
         },
         {
-            "Name": "🟣 VIVO",
+            "Name": "🟣 VIVO PROXY",
             "FLAG": "vivo",
             "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Origin: https://www.google.com, http://www.google.com[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
             "SNI": "",
             "TlsIP": "",
             "ProxyIP": "198.217.251.250",
+            "ProxyPort": "80",
+            "Info": "Proxy"
+        },
+        {
+            "Name": "🟣 VIVO CLOUDFLARE",
+            "FLAG": "vivo",
+            "Payload": "wss://help.cloudflareclient.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+            "SNI": "help.cloudflareclient.com",
+            "TlsIP": "help.cloudflareclient.com",
+            "ProxyIP": "",
+            "ProxyPort": "443",
+            "Info": "Tlsws"
+        },
+        {
+            "Name": "🟣 VIVO SSL",
+            "FLAG": "vivo",
+            "Payload": "GET ssl://[app_host] HTTP/1.1[crlf]Host: none[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "104.16.51.111",
+            "TlsIP": "",
+            "ProxyIP": "104.16.51.111",
             "ProxyPort": "80",
             "Info": "Proxy"
         },
